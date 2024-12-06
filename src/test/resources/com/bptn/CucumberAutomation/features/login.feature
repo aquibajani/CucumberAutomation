@@ -1,5 +1,7 @@
+@UserLogin
 Feature: User Login
 
+@ValidUserLogin
   Scenario Outline: Valid User Login
     Given a user is on the login page
      When the user enters valid username "<username>" and password "<password>"

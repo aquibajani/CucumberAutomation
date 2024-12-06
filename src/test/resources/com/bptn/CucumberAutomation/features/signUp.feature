@@ -1,5 +1,7 @@
+@UserSignUp
 Feature: User Sign Up
 
+@ValidUserInformation
   Scenario: Sign Up with Valid User Information
     Given a user visits the sign-up page
      When the user enters the following user information:
@@ -8,6 +10,7 @@ Feature: User Sign Up
       And the user clicks the sign-up button
      Then the user should be registered successfully
 
+@InvalidUserInformation
   Scenario: Sign Up with Invalid User Information
     Given a user visits the sign-up page
     When the user enters the following user information:
